@@ -27,7 +27,7 @@ cmake -G "Visual Studio 15 2017 Win64" -Dgtest_force_shared_crt=ON ..\benchmark\
 #### *nix/macOS
 
 ```bash
-cmake ..\benchmark\ # for make build files
+cmake ../benchmark/ # for make build files
 ```
 
 #### Common (continued)
@@ -71,6 +71,12 @@ Code for example should now be compiled! 😄
 
 ```bash
 .\Release\bm_example.exe # run the executable
+```
+
+#### *nix/macOS
+
+```bash
+./bm_example # run the executable
 ```
 
 ## Miscellaneous
