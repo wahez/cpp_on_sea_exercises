@@ -1,0 +1,16 @@
+Hi David and Walther,
+
+I've added an updated CMake script which should now be compatible with both Windows and *nix/macOS.
+
+It uses the find_package command to look for the installed benchmark library. This makes building the examples much easier. I've included a README with detailed steps (let me know if I missed anything!)
+
+I've also updated how we set the c++ version and the various compiler flags (the compiler flags are now set using target_compile_options with a generator expression - the syntax is a bit horrible at first but you get used to them :)).
+
+Thanks again for the awesome training and I hope this comes in handy in future training sessions,
+
+I'm tom_h_h on Twitter and my e-mail is tom.hultonharrop@gmail.com (work: hultonha@amazon.co.uk as well)
+
+All the best,
+
+
+Tom
