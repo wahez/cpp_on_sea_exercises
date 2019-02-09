@@ -1,6 +1,7 @@
-#include "./benchmark/benchmark.h"
 #include <iostream>
 #include <vector>
+
+#include "benchmark/benchmark.h"
 
 constexpr auto RangeMultiplier = 2;
 
